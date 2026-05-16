@@ -93,7 +93,7 @@
 }
 
 @utility home-add-icon {
-  @apply size-12;
+  @apply size-10;
 }
 
 @utility home-balance-card {
@@ -141,7 +141,7 @@
 }
 
 @utility upcoming-icon {
-  @apply size-14;
+  @apply size-10;
 }
 
 @utility upcoming-price {
@@ -173,7 +173,7 @@
 }
 
 @utility sub-icon {
-  @apply size-16 rounded-lg;
+  @apply size-12 rounded-lg;
 }
 
 @utility sub-copy {
