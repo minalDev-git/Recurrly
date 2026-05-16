@@ -13,12 +13,7 @@ export const formatCurrency = (
     }).format(value);
   } catch (error) {
     // Fallback to USD if invalid currency code is provided
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    }).format(value);
+    return value.toFixed(2);
   }
 };
 

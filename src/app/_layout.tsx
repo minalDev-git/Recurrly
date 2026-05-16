@@ -6,6 +6,7 @@ import "../../global.css";
 // we need to load the fonts before any screens render, as we need to keep the splash screen visible while they load.
 // so if we don't, we will see unstyled text before the fonts loads
 
+SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     "sans-regular": require("@/assets/fonts/PlusJakartaSans-Regular.ttf"),
